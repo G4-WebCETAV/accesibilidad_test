@@ -3,7 +3,7 @@
 }
 body{
     font-family: 'Karla', sans-serif;
-    background-color: #001927;
+    background-color: #003858;
 }
 h1, h2, h3{
     font-family: 'Rubik Mono One', sans-serif;
@@ -55,4 +55,23 @@ h2{
         padding-top: 80px;
         color: #a3a3a3;
     }
+}
+.arrows_1, .arrow_2{
+    opacity: 0.5;
+    position: fixed;
+    top: 39%;
+}
+.arrows_1:hover, .arrow_2:hover{
+    opacity: 1;
+}
+.left, .right{
+    width: 100px;
+}
+.arrows_1{
+    filter: contrast(200%);
+    transform: rotate(270deg);
+}
+.arrow_2{
+    right: 1px;
+    transform: rotate(90deg);
 }
