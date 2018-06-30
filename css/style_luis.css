@@ -20,6 +20,10 @@ h1{
     top: 100px;
     font-size: 11vw;
 }
+.space{
+    font-size: 1.5vw;
+    top: 111px;
+}
 .links_ids{
     top: 110px;
     text-decoration: none;
@@ -57,7 +61,9 @@ h1, .links_ids, .space{
         margin-bottom: 20px;
     }
     .space{
-        display: none;
+        top: 103px;
+        display: block;
+        text-align: center;
     }
 }
 /*Fin de d1*/

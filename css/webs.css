@@ -39,6 +39,9 @@ h2{
         width: 220px;
         margin: 16px auto;
     }
+    img{
+        width: 200px;
+    }
     .img{
         margin: 15px;
         width: 200px;
