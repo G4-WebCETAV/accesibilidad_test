@@ -145,9 +145,9 @@ li{
     width: 86%;
     margin-bottom: 50px;
 }
-@media only screen and (max-width: 465px){
+@media only screen and (max-width: 1238px){
     .squares{
-        width: 37%;
+        width: 38%;
         margin: 15px;
         display: inline-block;
     }
