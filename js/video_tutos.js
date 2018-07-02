@@ -2,6 +2,7 @@ let vid_description = document.getElementById('vid_description');
 let vids = document.getElementById('vids');
 let change_title = document.getElementById('change_title');
 var videos_num = 1, text = '', embed_vids ='', title = '';
+
 function l_vid(){
     videos_num--;
     lets_see();
@@ -9,6 +10,7 @@ function l_vid(){
     change_vids_and_text();
     change_content();
 }
+
 function r_vid(){
     videos_num++;
     lets_see();
@@ -16,6 +18,7 @@ function r_vid(){
     change_vids_and_text();
     change_content();
 }
+
 function change_vids_and_text(){
     
     switch(videos_num){

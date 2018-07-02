@@ -1,3 +1,3 @@
-# Accesibilidad la Guía de la Web
+# Accesibilidad la GuÃ­a de la Web
 
-Aquí está  la [Github page](https://g4-webcetav.github.io/accesibilidad_test/)
+AquÃ­ estÃ¡  la [Github page](https://g4-webcetav.github.io/accesibilidad_test/) del repositorio
