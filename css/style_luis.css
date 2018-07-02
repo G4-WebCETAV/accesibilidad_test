@@ -183,9 +183,10 @@ li{
 .wrapper_videos h2{
     font-size: 3vw;
 }
-@media only screen and (max-width: 770px){
+@media only screen and (max-width: 670px){
     .wrapper_videos iframe{
-        width: 90%;;
+        width: 90%;
+        height: 200px;
     }
     .wrapper_videos p b, .wrapper_videos p{
         display: block;
@@ -235,5 +236,30 @@ li{
 .l{
     margin: 0px 78px 0px -10px;
     transform: rotate(270deg);
+}
+@media only screen and (max-width: 335px){
+    .r{
+        margin: 0px 0px 0px 39px;
+    }
+    .l{
+        margin: 0px 39px 0px -5px;
+    }
+    .botones button img{
+        width: 20px;
+    }
+    .botones button{
+        height: 30px;
+    }
+    .button_squares{
+        padding: 10px;
+        width: 140px;
+        margin: auto;
+    }
+    .botones{
+        background-color: #1b1b1b;
+        height: 30px;
+        width: 67.5px;
+        display: inline-block;
+    }
 }
 /*Fin de botones*/
