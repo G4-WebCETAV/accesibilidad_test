@@ -58,13 +58,19 @@ h1, .links_ids, .space{
 @media only screen and (max-width: 690px){
     .links_ids{
         display: block;
+        border: 1px solid #e2e1e1;
+        width: 280px;
+        margin: 22px auto;
+        padding: 10px;
         font-size: 4vw;
-        margin-bottom: 20px;
+    }
+    .links_ids:hover{
+        color: #0084d1;
+        background-color: #e2e1e1;
+        opacity: 1;
     }
     .space{
-        top: 103px;
-        display: block;
-        text-align: center;
+        display: none;
     }
 }
 /*Fin de d1*/
