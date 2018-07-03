@@ -13,31 +13,39 @@ h2{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 1000px;
+    height: 1100px;
     text-align: center;
+}
+.wrapper_1_inner{
+    background-color: hsla(202, 100%, 41%, 0.288);
+    height: 1100px;
 }
 h1{
     position: relative;
     top: 100px;
     font-size: 11vw;
 }
-.space{
-    font-size: 1.5vw;
-    top: 111px;
-}
 .links_ids{
-    top: 110px;
     text-decoration: none;
-    font-size: 1.5vw;
+    top: 113px;
+    display: block;
+    border: 1px solid #f7f7f7;
+    transition: 1.45s;
+    width: 480px;
+    margin: 32px auto;
+    padding: 10px;
+    font-size: 2vw;
 }
 .links_ids:hover{
-    color: #00a2ff;
-    transition: 0.25s;
+    color: #0084d1;
+    transition: 0.15s;
+    background-color: #f7f7f7;
+    opacity: 1;
 }
 h1, .links_ids, .space{
     position: relative;
-    opacity: 0.8;
-    color: #f4f4f4;
+    opacity: 0.9;
+    color: #f7f7f7;
 }
 .gradient{
     background-color: #065381;
@@ -57,20 +65,9 @@ h1, .links_ids, .space{
 }
 @media only screen and (max-width: 690px){
     .links_ids{
-        display: block;
-        border: 1px solid #e2e1e1;
         width: 280px;
         margin: 22px auto;
-        padding: 10px;
         font-size: 4vw;
-    }
-    .links_ids:hover{
-        color: #0084d1;
-        background-color: #e2e1e1;
-        opacity: 1;
-    }
-    .space{
-        display: none;
     }
 }
 /*Fin de d1*/
@@ -209,64 +206,49 @@ li{
 
 /*Botones videos*/
 .button_squares{
-    padding: 20px;
-    width: 280px;
+    width: 420px;
+    height: 40px;
     margin: auto;
 }
 .botones{
-    background-color: #1b1b1b;
-    height: 60px;
-    width: 135px;
     display: inline-block;
+    text-decoration: none;
+    border: 1px solid #f7f7f7;
+    width: 200px;
 }
 .botones:hover{
-    filter: contrast(90%);
-}
-.botones:active{
-    filter: contrast(70%);
+    color: #0084d1;
+    border: 1px solid #013d5f;
+    background-color: #f7f7f7;
+    opacity: 1;
 }
 .botones button{
-    background: transparent;
-    font-size: 0px;
-    height: 60px;
-    border: 0px;
-    outline: none;
-}
-.botones button img{
-    width: 40px;
     display: inline-block;
+    color: #f7f7f7;
+    padding: 9px;
+    outline: none;
+    background: transparent;
+    transition: 0.3s;
+    width: 100%;
+    font-size: 2vw;
 }
-.r{
-    margin: 0px 0px 0px 78px;
-    transform: rotate(90deg);
+.botones button:hover{
+    color: #0084d1;
+    transition: 0.15s;
+    background-color: #f7f7f7;
+    opacity: 1;
 }
-.l{
-    margin: 0px 78px 0px -10px;
-    transform: rotate(270deg);
-}
-@media only screen and (max-width: 335px){
-    .r{
-        margin: 0px 0px 0px 39px;
-    }
-    .l{
-        margin: 0px 39px 0px -5px;
-    }
-    .botones button img{
-        width: 20px;
-    }
+@media only screen and (max-width: 1000px){ 
     .botones button{
-        height: 30px;
-    }
-    .button_squares{
-        padding: 10px;
-        width: 140px;
-        margin: auto;
+        font-size: 20px;
     }
     .botones{
-        background-color: #1b1b1b;
-        height: 30px;
-        width: 67.5px;
-        display: inline-block;
+        width: 150px;
+    }
+    .button_squares{
+        width: 320px;
+        height: 40px;
+        margin: auto;
     }
 }
 /*Fin de botones*/
