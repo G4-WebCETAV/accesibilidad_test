@@ -35,19 +35,26 @@
             <div id="d2">
 
                 <h2 class="subtitles">Definiendo Conceptos</h2>
-                
-                
-                <div>
-                    <img src="img/dc_2.png" alt="" class="pics">
-                    <p class="parr"> <strong class="subs">Accesibilidad web</strong> tiene como objetivo lograr que las páginas web sean utilizables por el máximo 
-                        número de personas, independientemente de sus conocimientos o capacidades personales e independientemente 
-                        de las características técnicas del equipo utilizado para acceder a la Web.
-                        Sin embargo, la accesibilidad web no es aplicada solamente para personas con discapacidad sino también, para niños, adultos mayores, 
-                        personas analfabetas, entre otras cosas.
-                    </p>
-                    
-                </div>
-                    
+                <p class="defpa"> <span class="subs">La accesibilidad web</span> tiene como objetivo lograr que 
+                    las páginas web sean utilizables por el máximo número 
+                    de personas, independientemente de sus conocimientos o 
+                    capacidades personales e independientemente de las 
+                    características técnicas del equipo utilizado para 
+                    acceder a la Web.
+                </p>
+                <img src="img/dc_2.png" class="defim" alt="">
+                <p class="defpa">De igual manera al hablar de accesibilidad no sólo es
+                    referirnos a personas con discapacidades sino también de 
+                    llegar a niños, adultos mayores y personas analfabetas 
+                    que hagan uso de la web. 
+                </p>
+                <p class="defpa">Con esto se abren muchas puertas, tales como la búsqueda 
+                    de trabajo, aumento en la buena educación y que a su vez 
+                    garantizar que más personas puedan comprender el 
+                    significado del sitio sin importar su hardware, 
+                    software, idioma, ubicación geográfica o bien capacidades.
+                </p>
+    
             </div>
     
     
@@ -127,11 +134,11 @@
     
             <!-- Ale: Tips de accesibilidad -->
             <div id="d4">
-    
-                <h3 class="big_letters">
-                
-                </h3>
-    
+                <h2 class="subtitles">Tips de Accesibilidad</h2>
+                <div class="tips">
+                    
+
+                </div>
             </div>
     
             <!-- Luis: Videotutoriales -->
@@ -152,13 +159,13 @@
                     <div class="button_squares">
                         <div class="botones">
                             <button title="Para escuchar el video a la izquierda apreta aquí" onclick="l_vid()">
-                                Izquierda
+                                Anterior
                             </button>
                         </div>
                         
                         <div class="botones">
                             <button title="Para escuchar el video a la derecha apreta aquí" onclick="r_vid()">
-                                Derecha
+                                Siguiente
                             </button>
                         </div>
                     </div>
@@ -178,7 +185,79 @@
     
             <!-- Luis: Ejemplos en código -->
             <div id="d6">
-    
+                <section>
+                    <h2>Ejemplos de código</h2>
+                    <h3 id="example_id">1° ejemplo</h3>
+                    <p id="code_text">
+                        %reset-Button {
+                            <br/>
+                            border: none;
+                            <br/>
+                            margin: 0;
+                            <br/>
+                            padding: 0;
+                            <br/>
+                            width: auto;
+                            <br/>
+                            overflow: visible;
+                            <br/>
+                        
+                            background: transparent;
+                            <br/>
+                        
+                            /* inherit font & color from ancestor */
+                            <br/>
+                            color: inherit;
+                            <br/>
+                            font: inherit;
+                            <br/>
+                        
+                            /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+                            <br/>
+                            line-height: normal;
+                            <br/>
+                        
+                            /* Corrects font smoothing for webkit */
+                            <br/>
+                            -webkit-font-smoothing: inherit;
+                            <br/>
+                            -moz-osx-font-smoothing: inherit;
+                            <br/>
+                        
+                            /* Corrects inability to style clickable `input` types in iOS */
+                            <br/>
+                            -webkit-appearance: none;
+                            <br/>
+                        }
+                        <br/>
+                        
+                        /* Remove excess padding and border in Firefox 4+ */
+                        <br/>
+                        &::-moz-focus-inner {
+                            <br/>
+                            border: 0;
+                            <br/>
+                            padding: 0;
+                            <br/>
+                        }
+                        <br/>
+                    </p>
+
+                    <div class="button_squares">
+                        <div class="botones">
+                            <button title="Para escuchar el código a la izquierda apreta aquí" onclick="l_code()">
+                                Anterior
+                            </button>
+                        </div>
+                        
+                        <div class="botones">
+                            <button title="Para escuchar el código a la derecha apreta aquí" onclick="r_code()">
+                                Siguiente
+                            </button>
+                        </div>
+
+                    </div>
+                </section>
             </div>
     
             <!-- Pie de página | links a página de bibliografía | links a página de developers del sitio -->
