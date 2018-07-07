@@ -263,10 +263,10 @@ li{
         font-size: 20px;
     }
     .botones{
-        width: 150px;
+        width: 115px;
     }
     .button_squares{
-        width: 320px;
+        width: 240px;
         height: 40px;
         margin: auto;
     }
@@ -278,7 +278,7 @@ li{
     background-color: #0072b1;
 }
 #d6 section{
-    width: 79%;
+    width: 70%;
     padding: 40px;
     margin: auto;
 }
