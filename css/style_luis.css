@@ -286,34 +286,3 @@ li{
     }
 }
 /*Fin de botones*/
-
-/*Sección de d6*/
-#d6{
-    background-color: #0072b1;
-}
-#d6 section{
-    width: 70%;
-    padding: 40px;
-    margin: auto;
-}
-#d6 h2, #d6 h3{
-    color: #f4f4f4;
-    text-align: center;
-    margin: 20px;
-}
-#d6 section p{
-    transition: 1s;
-    width: 90%;
-    background-color: #f4f4f4;
-    margin: 120px auto;
-    border-radius: 50px;
-    padding: 60px;
-}
-@media only screen and (max-width: 1000px){
-    #d6 section p{
-        width: 88%;
-        padding: 22px;
-    }
-}
-
-/*Fin d6*/
