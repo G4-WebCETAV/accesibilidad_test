@@ -1,6 +1,60 @@
+*{
+    margin: 0;
+}
 body{
     font-family: 'Karla', sans-serif;
+    background-image: url("../img/bg_biblio.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
 h1, h2, h3{
     font-family: 'Rubik Mono One', cursive;
+}
+h1{
+    text-align: right;
+    font-size: 3vw;
+    margin-right: 3px;
+}
+h2{
+    font-size: 4vw;
+}
+.bottom_page{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+}
+.wrappers{
+    opacity: 0.9;
+    display: inline-block;
+}
+ul{
+    line-height: 3.4;
+    font-size: 2vw;
+    margin: 30px 0px 330px 30px; 
+    color: #00a2ff;
+}
+h1, h2, a{
+    color: #f4f4f4;
+}
+.asa{
+    background: -webkit-linear-gradient(top, transparent, black);
+}
+@media only screen and (max-width: 550px){
+    h1{
+        font-size: 5vw;
+    }
+    h2{
+        font-size: 6vw;
+    }
+    ul{
+        font-size: 4vw;
+        margin: 15px 0px 130px 30px;
+    }
+    .bottom_page{
+        position: initial;
+    }
+    .wrappers{
+        margin-top: 20px;
+    }
 }

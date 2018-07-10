@@ -30,6 +30,9 @@ img{
 .text{
     color: #f4f4f4;
 }
+#text_on_p{
+    line-height: 32px;
+}
 .img{
     margin: 15px;
     width: 400px;
