@@ -1,7 +1,6 @@
 *{
     margin: 0;
 }
-
 h2{
     font-size: 5vw;
     text-align: center;
@@ -16,6 +15,10 @@ h2{
     background-attachment: fixed;
     height: 1100px;
     text-align: center;
+    transition: 7s;
+}
+.wrapper_1:hover{
+    background-position: top;
 }
 .wrapper_1_inner{
     background-color: hsla(202, 100%, 41%, 0.288);
@@ -127,6 +130,7 @@ li{
 #d3 .subtitle{
     color: #f4f4f4;
     opacity: 0.7;
+    font-size: 2vw;
     text-align: center;
     padding-bottom: 90px;
 }
@@ -196,6 +200,7 @@ li{
     color: #e2e1e1;
 }
 .big_letters{
+    font-size: 2vw;
     padding: 40px;
     opacity: 0.9;
 }
@@ -233,6 +238,10 @@ li{
     }
     .big_letters{
         padding: 30px 4px;
+        font-size: 4vw;
+    }
+    #d3 .subtitle{
+        font-size: 4vw;
     }
 }
 /*Fin de d5*/

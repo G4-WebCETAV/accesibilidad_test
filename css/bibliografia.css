@@ -12,11 +12,11 @@ h1, h2, h3{
 }
 h1{
     text-align: right;
-    font-size: 3vw;
+    font-size: 4vw;
     margin-right: 3px;
 }
 h2{
-    font-size: 4vw;
+    font-size: 3vw;
 }
 .bottom_page{
     position: fixed;
@@ -39,6 +39,19 @@ h1, h2, a{
 }
 .asa{
     background: -webkit-linear-gradient(top, transparent, black);
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0076b1;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #004872;
+    transition: 0.45s;
+}
+::-webkit-scrollbar-track{
+    background-color: #f4f4f4;
 }
 @media only screen and (max-width: 550px){
     h1{
