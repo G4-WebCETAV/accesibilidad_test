@@ -4,3 +4,87 @@ body{
 h1, h2, h3{
     font-family: 'Rubik Mono One', cursive;
 }
+.gradient{
+    background-color: #004872;
+}
+.subtitles{
+    color: #f4f4f4;
+    font-size: 5vw;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#d4{
+    margin: 25px;
+}
+    
+#d2, #d4, .tips{
+    text-align: center;
+    background-color: #004872;
+    word-spacing: 1.5px;
+    width: 96%;
+    margin: auto;
+    padding-bottom: 23px;
+}
+    
+.subs{
+    font-weight: bold;
+}
+    
+.defim{
+    align-self: auto;
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+@media only screen and (max-width: 1300px){
+    .defim{
+        width: 47%;
+    }
+}
+@media only screen and (max-width: 900px){
+    .defim{
+        width: 77%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .defim{
+        width: 97%;
+    }
+}
+    
+.defpa{
+    margin: 10px;
+    padding: 15px;
+    text-align: left;
+}
+
+.def{
+    text-align: left;
+}
+
+#slider{
+    padding: 10%;
+    color: #1f1f1f;
+    background-color: #f4f4f4;
+    border-radius: 25px;
+    margin-bottom: 75px;
+    margin-top: 35px;
+    font-size: 1.3vw;
+}
+
+.pas{
+    color: #1f1f1f;
+    background-color: #f4f4f4;
+    border-radius: 25px;
+    padding: 5%;
+    margin: 80px 0px;
+    font-size: 1.3vw;
+}
+
+@media only screen and (max-width: 975px) {
+    #slider, .pas{
+        font-size: 3.3vw;
+    }
+}

@@ -11,14 +11,14 @@ h2{
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-attachment: fixed;
     height: 1100px;
     text-align: center;
     transition: 7s;
 }
 .wrapper_1:hover{
-    background-position: top;
+    background-position: center;
 }
 .wrapper_1_inner{
     background-color: hsla(202, 100%, 41%, 0.288);
@@ -50,9 +50,6 @@ h1, .links_ids, .space{
     position: relative;
     opacity: 0.9;
     color: #f7f7f7;
-}
-.gradient{
-    background-color: #065381;
 }
 ::-webkit-scrollbar{
     width: 10px;
@@ -196,7 +193,7 @@ li{
 
 /*Videotutoriales d5*/
 #d5{
-    background-color: #004872;
+    background-color: #0076b1;
     color: #e2e1e1;
 }
 .big_letters{
