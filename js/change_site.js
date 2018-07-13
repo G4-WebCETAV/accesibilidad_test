@@ -44,7 +44,7 @@ function change_param(param){
             break;
 
         case 2:
-            change_img.innerHTML = '<a target="_blank" href="http://equiposespecializados.catedu.es/"><img src="../../img/pag2.png" alt="Esta imagen muestra una captura de un ditio web, utilizado como un portal de noticias personalizado para cada usuario dependiendo de su discapacidad.></a>';
+            change_img.innerHTML = '<a target="_blank" href="http://equiposespecializados.catedu.es/"><img src="../../img/pag2.png" alt="Esta imagen muestra una captura de un sitio web, utilizado como un portal de noticias personalizado para cada usuario dependiendo de su discapacidad."></a>';
             text_on_p.innerHTML = 'El portal de noticias incorpora en la cabecera la posibilidad de personalizar la portada, de manera que los visitantes pueden elegir el tipo de información sobre el que están más interesados (por tipo de discapacidad: visual, auditiva, física, cognitiva u otras, o para personas mayores) y todas las noticias de portada cambian para mostrar aquellas que interesan al usuario.';
             break;
             
